@@ -2,7 +2,10 @@ install:
 	npm install
 
 start:
-	npx babel src --out-dir dist
+	npx babel src --out-dir dist --source-maps inline
 
 lint:
-	npm run eslint
+	npx eslint .
+
+publish:
+	npm publish
