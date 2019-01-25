@@ -1,4 +1,4 @@
 #!/usr/bin/env node
+import userGame from '..';
 
-import { userGame } from '..';
 userGame();
